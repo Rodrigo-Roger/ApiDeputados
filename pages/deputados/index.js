@@ -10,6 +10,7 @@ const index = ({ deputados }) => {
     <Pagina titulo='Deputados'>
 
       <Row md={4} xs={1} className="g-4"> 
+      
         {deputados.map(item => (
           <Col key={item.id}>
           <Card >

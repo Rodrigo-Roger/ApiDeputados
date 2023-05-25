@@ -18,7 +18,7 @@ function Cabecalho() {
                         <Navbar.Offcanvas id={``} aria-labelledby={``} placement="start">
                         <Offcanvas.Body responsive="lg">
                             <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1" className='spaced-link'>
+                            <Nav.Link href="http://localhost:3000/" className='spaced-link'>
                                 <FaNewspaper className="me-3" size={28} color='29569B' />
                                 Notícias
                             </Nav.Link>
